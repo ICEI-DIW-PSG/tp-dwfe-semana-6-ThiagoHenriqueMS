@@ -10,18 +10,18 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Thiago Henrique Marques Soares
+- Matricula: 926400
+- Proposta de projeto escolhida: Investimento 
+- Breve descrição sobre seu projeto:  A página na web criada tem como objetivo mostrar e explicar um conteúdo educacional a respeito de investimentos, mostrando os principais e mais básicos tipos existentes no mercado financeiro e sem qualquer tipo de recomendação.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+![desktop-bootstrap](images/desktop-boostrap.png)
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+![mobile-bootstrap](images/mobile-boostrap.png)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 

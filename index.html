@@ -1,12 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Guia Básico de Investimentos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
-    
+
+
+    <header class="cabeçalho">
+        <h1>Guia Básico de Investimentos</h1>
+        <nav class="menu">
+
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="patrocinio.html">Patrocínio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="corpo_principal">
+        <section class="banner">
+            <img src="images/banner2.jpg" alt="banner">
+            <p>Este site tem o objetivo de informar sobre um conteúdo educacional a respeito de investimentos,
+                mostrando algumas categorias básicas existentes no mercado financeiro. Além disso, esta página
+                possui é meramente informativa, sendo isenta de qualquer tipo de recomendação. </p>
+        </section>
+        <div class="formulario">
+            <input type="text" placeholder="Tipo de Investimento..." list="tipo_investimento">
+            <datalist id="tipo_investimento">
+                <option value="Renda Fixa">
+                <option value="Renda Variável">
+            </datalist>
+            <input type="text" placeholder="Investimentos..." list="investimentos">
+            <datalist id="investimentos">
+                <option value="CDB">
+                <option value="Tesouro_Selic">
+                <option value="Pós-Fixado">
+                <option value="Pré-Fixado">
+                <option value="Híbrido">
+                <option value="Ações">
+                <option value="Fundos Imobiliários">
+            </datalist>
+            <button>Pesquisar</button>
+        </div>
+        <section class="card1">
+            <img src="images/rf.png" alt="rendafixa">
+            <h3>O que é renda fixa ?</h3>
+            <p>Renda fixa é uma modalidade de investimento, na qual as regras de remuneração são dispostas no
+                momento da aplicação, oferecendo maior previsibilidade e segurança para o investidor.</p>
+
+        </section>
+        <section class="Renda_Fixa">
+            <h2>Renda Fixa</h2>
+            <article class="CDB">
+                <h3>CDB (Certificado de Depósito Bancário)</h3>
+                <p>O Certificado de Depósito Bancário (CDB) é um tipo de investimento em renda fixa que é emitido
+                    por
+                    bancos, para que possam captar dinheiro. Este produto pode possuir uma rentabilidade pré-fixada,
+                    pós-fixada ou híbrida. Basicamente é como se estivesse emprestando o seu dinheiro para o banco e
+                    ele, em troca, paga juros.</p>
+                <p>Além disso, os CDB's possuem dois tipos de liquidez: diária, aonde o dinheiro pode ser resgatado
+                    a
+                    qualquer momento (ideal para reserva de emergência), e no vencimento, aonde o resgate ocorre
+                    apenas
+                    na data de vencimento do título. Também vale ressaltar que a maioria dos CDB's possuem a
+                    cobertura
+                    do FGC (Fundo Garantidor de Créditos) que protege o seu dinheiro em caso de falência de bancos e
+                    financeiras, devolvendo até R$ 250 mil por CPF e por instituição. </p>
+            </article>
+            <article class="tesouro_selic">
+                <h3>Tesouro Selic</h3>
+                <p>O tesouro Selic é um investimento de renda fixa oferecido pelo Tesouro Direto, em parceira com a
+                    B3,
+                    que permite que pessoas físicas comprem títulos públicos federais pela internet de forma
+                    simplificada. Basicamente, é como se estivesse emprestando dinheiro para o governo, e em troca,
+                    ele
+                    paga juros. A sua taxa de rentabilidade é dita pela taxa básica de juros do país (taxa selic).
+                    Possui alta liquidez e baixo risco, sendo considerado por muitos um dos investimentos mais
+                    seguros
+                    do Brasil. Portanto, também é considerado um investimento ideal para reservas de emergência.</p>
+
+            </article>
+            <article class="pós_fixado">
+                <h3>Pós-Fixado</h3>
+                <p>A renda fixa pós-fixada tem a rentabilidade atrelada a um indicador econômico, como a própria
+                    taxa
+                    selic ou o CDI (Certificado de Depósito Interbancário) variando conforme as osciliações do
+                    mercado
+                    até o vencimento. Nesta modalidade, o investidor só saberá quanto irá receber na data do
+                    vencimento.
+                </p>
+
+            </article>
+            <article class="pré_fixado">
+                <h3>Pré-Fixado</h3>
+                <p>A renda fixa pré-fixada possui uma taxa de rentabilidade fixa, e portanto o investidor sabe
+                    exatamente quanto irá receber ao vencimento do título.</p>
+
+            </article>
+            <article class="híbrido">
+                <h3>Híbrido</h3>
+                <p>A renda fixa híbrida possui uma taxa de rentabilidade mista, ou seja, ela contempla de uma parte
+                    pós-fixada, mais uma parte pré-fixada. </p>
+                <p>Exemplo: Tesouro IPCA + 6% ano. (Sendo IPCA o principal índice de inflação no Brasil, calculado
+                    mensalmente pelo IBGE).</p>
+            </article>
+            <img src="images/rf2.jpg" alt="imagem1">
+
+        </section>
+        <section class="card2">
+            <img src="images/rv.jpg" alt="rendavariavel">
+            <h3>O que é renda variável ?</h3>
+            <p>Renda variável é uma modalidade de investimento na qual não se tem nenhuma previsibilidade de
+                rentabilidade, podendo tanto quanto oscilar o seu valor para baixo, quanto para cima,
+                indefinidamente. Portanto é considerado uma modalidade relativamente mais arriscada do que a renda
+                fixa. </p>
+
+
+        </section>
+        <section class="Renda_Variável">
+            <h2>Renda Variável</h2>
+            <article class="ações">
+                <h3>Ações</h3>
+                <p>As ações são as menores partes do capital de uma empresa. Elas são negociadas na bolsa de valores
+                    e
+                    ao se comprar uma ação, a pessoa se torna sócio da empresa. Basicamente, existem duas formas de
+                    se
+                    lucrar com ações: A primeira delas é o ganho de capital, no qual se vende uma ação por um preço
+                    maior do que comprou.(Exemplo: Comprei 100 ações da Petrobrás por R$ 20,00 e as vendi por R$
+                    30,00.
+                    Dessa forma, obtive um lucro de R$ 10,00 por ação, totatilizando R$ 1000,00 de lucro.) Outra
+                    forma
+                    de se obter lucro é com o recebimento de dividendos, que são parte do lucro da empresa
+                    distribuído a
+                    seus acionistas.</p>
+
+            </article>
+            <article class="Fundos_Imobiliários">
+                <h3>Fundos Imobiliários</h3>
+                <p>Fundos Imobiliários são fundos de investimentos coletivo que captam dinheiro para aplicar em
+                    ativos
+                    do mercado imobiliário, como imóveis físicos ou títulos de dívidas. Da mesma forma que as ações,
+                    é
+                    possível auferir lucro com o ganho de capital e com rendimentos, que são as receitas de aluguéis
+                    ou
+                    juros gerados, distruibuídos, na maioria das vezes, mensalmente para seus cotistas. Também são
+                    negociados a partir da bolsa de valores. </p>
+
+                <img src="images/rv2.jpg" alt="imagem2">
+
+            </article>
+
+
+
+
+
+        </section>
+        <div class="considerações">
+            <h2>Considerações finais</h2>
+            <p>
+                Vale ressaltar que existem outros produtos de investimento no mercado, estes apresentados, são
+                apenas
+                alguns. Também temos que ressaltar que cada um desses investimentos apresentam <span
+                    class="destaque">RISCOS</span>. Sendo
+                este site, um conteúdo puramente educacional e sem qualquer tipo de recomendação. Dessa forma, a
+                decisão
+                de aplicar ou não nas modalidades
+                deve ser algo
+                <span class="destaque">INDIVIDUAL E PELA PRÓPRIA CONTA EM RISCO</span>, ou seja, antes de qualquer
+                atitude é preciso que o
+                investidor conheça o seu perfil de risco e avalie se determinado investimento faz sentido para si.
+                Além
+                disso, deve-se ressaltar também que cada modalidade
+                possui diferentes incidências de imposto de renda.
+
+            </p>
+
+        </div>
+
+
+
+    </main>
+    <footer class="rodape">
+        <p>Autor: Thiago Henrique Marques Soares</p>
+        <p>Todos os direitos reservados</p>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+    </footer>
+
+
+
+
 </body>
+
 </html>
